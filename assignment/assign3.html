@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="assign3.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p>Tell us something positive that happened to you today.</p>
+      <div>
+        <label for="">Name</label>
+        <input type="text" placeholder="Enter your name" name="" id="name" />
+      </div>
+      <div>
+        <label for="">Email</label>
+        <input
+          type="email"
+          placeholder="Enter your email address"
+          name=""
+          id="email"
+        />
+      </div>
+      <div>
+        <label for="">On a scale of 1-10,how good was it?</label>
+        <input
+          type="number"
+          name=""
+          id="number"
+          placeholder="Enter a number between 1 and 10"
+        />
+      </div>
+      <div>
+        <label for="">Where did it happen?</label>
+        <select name="" id="happen">
+          <option value="">-Select the option-</option>
+          <option value="home">At home</option>
+        </select>
+      </div>
+      <div>
+        <label for="">At what time of day did it happen?</label> <br />
+        <input type="radio" name="morning" id="" /> Morning <br />
+        <input type="radio" name="afternoon" id="" /> Afternoon <br />
+        <input type="radio" name="evening" id="" /> Evening <br />
+      </div>
+      <div>
+        <label for=""
+          >What emotions did you experience? <br />
+          (select all that apply)
+        </label>
+        <br />
+        <input type="checkbox" name="" id="" multiple />Excited <br />
+        <input type="checkbox" name="" id="" multiple />Humbled <br />
+        <input type="checkbox" name="" id="" multiple />Elated <br />
+        <input type="checkbox" name="" id="" multiple />Loved <br />
+        <input type="checkbox" name="" id="" multiple />Enthusiastic <br />
+      </div>
+      <div>
+        <label for="">Please describe your positive experience.</label>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Enter your experience here.."
+        ></textarea>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        text-align: center;
+        border: 1px solid #ffff;
+        padding: 10px;
+      }
+      #first {
+        background-color: red;
+        color: #ffff;
+      }
+      #second {
+        background-color: blue;
+        color: #ffff;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="first">
+      <thead>
+        <tr>
+          <th colspan="2">Name</th>
+          <th rowspan="2">Email</th>
+        </tr>
+        <tr>
+          <th>First</th>
+          <th>Last</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bibek</td>
+          <td>Poudyal</td>
+          <td>bibekpoudyal5@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Ramesh</td>
+          <td>Luitel</td>
+          <td>Ramesh@mail.com</td>
+        </tr>
+        <tr>
+          <td>Ritik</td>
+          <td>Magar</td>
+          <td>ritik@mail.com</td>
+        </tr>
+      </tbody>
+      <td colspan="3">
+        <table id="second">
+          <thead>
+            <tr>
+              <th colspan="2">New Table</th>
+              <th>address</th>
+              <th>Phone</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2">new</td>
+              <td>ktm</td>
+              <td>12345</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </table>
+  </body>
+</html>
