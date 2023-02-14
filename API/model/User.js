@@ -1,3 +1,5 @@
+const { default: mongoose } = require("mongoose");
+
 const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId;
 
@@ -8,4 +10,5 @@ const UserSchema = new Schema({
     role: String
 });
 
-module.export = 
+const User = mongoose.model("User", UserSchema)
+module.exports = User
